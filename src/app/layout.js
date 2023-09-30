@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Script from "next/script";
 export const metadata = {
   icons: {
     icon: "/favicon.png",
@@ -82,6 +83,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ro">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11357127216" />
+
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-11357127216');
+        `}
+      </Script>
       <body className="px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-40  bg-gray-950">
         <header>
           <Navbar />
