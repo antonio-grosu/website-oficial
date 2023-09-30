@@ -95,12 +95,7 @@ export default function RootLayout({ children }) {
         `}
       </Script>
         <Script>
-    {'
-      
-
-  gtag('event', 'conversion', {'send_to': 'AW-11357127216/pJO5CO2clucYELCEwKcq'});
-'}
-  </Script>
+      {'gtag('event', 'conversion', {'send_to': 'AW-11357127216/pJO5CO2clucYELCEwKcq'})'}</Script>
       <body className="px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-40  bg-gray-950">
         <header>
           <Navbar />
