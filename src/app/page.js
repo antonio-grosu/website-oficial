@@ -3,7 +3,6 @@ import About from "./components/homepage/About";
 import Services from "./components/homepage/Services";
 import Testimonials from "./components/homepage/Testimonials";
 import Contact from "./components/homepage/Contact";
-import Script from "next/script";
 
 export const metadata = {
   title: "Codevs.ro | Home",
@@ -23,13 +22,7 @@ export const metadata = {
 function Homepage() {
   return (
     <>
-    <Script>
-    {'
-      
-
-  gtag('event', 'conversion', {'send_to': 'AW-11357127216/pJO5CO2clucYELCEwKcq'});
-'}
-  </Script>
+    
       <Hero />
       <About />
       <Services />
