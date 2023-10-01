@@ -54,8 +54,9 @@ function Serviciu(props) {
           {props.services &&
             props.services.map((item) => {
               return (
-                <p className="border-t-2 mt-1 poppins text-sm text-violet-50 py-1 px-1 md:px-2 lg:px-4 xl:px-6 2xl:px-8 border-violet-500 rounded-r-full">
-                  {item}
+                <p className="border-t-2 mt-1 poppins text-sm text-violet-50 py-2 px-1 md:px-2 lg:px-4 xl:px-6 2xl:px-8 border-violet-500 rounded-r-full">
+                  {item.img}
+                  {item.p}
                 </p>
               );
             })}
