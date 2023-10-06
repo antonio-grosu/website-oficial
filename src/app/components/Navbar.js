@@ -41,7 +41,7 @@ function Navbar() {
           >
             <span className="text-violet-500">@</span>codevs
           </a>
-          <div className="hidden text-sm md:flex items-center poppins justify-between w-2/12">
+          <div className="hidden text-sm md:flex items-center poppins justify-between w-3/12">
             <a
               href="/despre"
               className="hover:text-violet-500 ease-in-out transition-all"
@@ -53,6 +53,12 @@ function Navbar() {
               className="hover:text-violet-500 ease-in-out transition-all"
             >
               Servicii
+            </a>
+            <a
+              href="/servicii"
+              className="hover:text-violet-500 py-1 px-2 bg-violet-500/20 rounded-sm ease-in-out transition-all"
+            >
+              Website Gratuit
             </a>
 
             {/* <a href="/blog">News</a> */}
@@ -128,6 +134,12 @@ function Navbar() {
                   </svg>
                   Servicii
                 </a>
+                <a
+                  href="/servicii"
+                  className="hover:text-violet-500 py-1 px-2 bg-violet-500/20 rounded-sm ease-in-out transition-all"
+                >
+                  Website Gratuit
+                </a>
                 {/* <a href="/blog" className="py-2">
                 News
               </a> */}
@@ -144,50 +156,50 @@ function Navbar() {
             </div>
             {/* {alert && (
               <div className="p-4 poppins text-violet-50/50 border-2 border-violet-500 bg-violet-500/20 h-auto rounded-xl">
-                <div className="w-full flex items-center justify-between">
-                  <div>
-                    <p className="w-full text-violet-50 text-sm">
-                      Blog-ul Codevs va fi disponibil in curand!
-                      <br />
-                      Fii primul care citeste postarile!
-                    </p>
-                    <button className="px-4 flex mt-6 py-1 rounded-md  sora bg-violet-500   text-gray-50">
-                      <svg
-                        className="w-[24px] h-[24px] mr-2 text-gray-800 dark:text-white"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor"
-                        viewBox="0 0 19 20"
+              <div className="w-full flex items-center justify-between">
+              <div>
+              <p className="w-full text-violet-50 text-sm">
+              Blog-ul Codevs va fi disponibil in curand!
+              <br />
+              Fii primul care citeste postarile!
+              </p>
+              <button className="px-4 flex mt-6 py-1 rounded-md  sora bg-violet-500   text-gray-50">
+              <svg
+              className="w-[24px] h-[24px] mr-2 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 19 20"
                       >
                         <path d="M18.012 13.453c-.219-1.173-2.163-1.416-2.6-3.76l-.041-.217c0 .006 0-.005-.007-.038v.021l-.017-.09-.005-.025v-.006l-.265-1.418a5.406 5.406 0 0 0-5.051-4.408.973.973 0 0 0 0-.108L9.6 1.082a1 1 0 0 0-1.967.367l.434 2.325a.863.863 0 0 0 .039.1A5.409 5.409 0 0 0 4.992 9.81l.266 1.418c0-.012 0 0 .007.037v-.007l.006.032.009.046v-.01l.007.038.04.215c.439 2.345-1.286 3.275-1.067 4.447.11.586.22 1.173.749 1.074l12.7-2.377c.523-.098.413-.684.303-1.27ZM1.917 9.191h-.074a1 1 0 0 1-.924-1.07 9.446 9.446 0 0 1 2.426-5.648 1 1 0 1 1 1.482 1.343 7.466 7.466 0 0 0-1.914 4.449 1 1 0 0 1-.996.926Zm5.339 8.545A3.438 3.438 0 0 0 10 19.1a3.478 3.478 0 0 0 3.334-2.5l-6.078 1.136Z" />
                       </svg>
                       Inscrie-te
-                    </button>
-                  </div>
-                  <button
-                    onClick={() => {
-                      setAlert(!alert);
-                    }}
-                  >
-                    <svg
+                      </button>
+                      </div>
+                      <button
+                      onClick={() => {
+                        setAlert(!alert);
+                      }}
+                      >
+                      <svg
                       className="w-[20px] h-[20px] inline-block  text-red-300"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 20 20"
-                    >
+                      >
                       <path
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
                         d="m13 7-6 6m0-6 6 6m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            )} */}
+                        />
+                        </svg>
+                        </button>
+                        </div>
+                        </div>
+                      )} */}
             <div>
               {" "}
               <div className="w-full">
