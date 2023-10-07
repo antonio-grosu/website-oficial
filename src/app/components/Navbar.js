@@ -7,7 +7,7 @@ function Navbar() {
   const [alert, setAlert] = useState(true);
   return (
     <nav
-      className={`text-violet-50 z-10 py-6  px-4  md:px-12 lg:px-16 xl:px-20 2xl:px-24 left-0 justify-between fixed top-0  w-full md:py-2 lg:py-4 flex  items-center ${
+      className={`text-violet-50 z-10 py-6  px-4  md:px-12 lg:px-16 xl:px-40 2xl:px-44 left-0 justify-between fixed top-0  w-full md:py-2 lg:py-4 flex  items-center ${
         !sideBar ? "bg-gray-950/90 " : ""
       }`}
     >
@@ -53,12 +53,6 @@ function Navbar() {
               className="hover:text-violet-500 ease-in-out transition-all"
             >
               Servicii
-            </a>
-            <a
-              href="/servicii"
-              className="hover:text-violet-500 py-1 px-2 bg-violet-500/20 rounded-sm ease-in-out transition-all"
-            >
-              Website Gratuit
             </a>
 
             {/* <a href="/blog">News</a> */}
@@ -134,12 +128,7 @@ function Navbar() {
                   </svg>
                   Servicii
                 </a>
-                <a
-                  href="/servicii"
-                  className="hover:text-violet-500 py-1 px-2 bg-violet-500/20 rounded-sm ease-in-out transition-all"
-                >
-                  Website Gratuit
-                </a>
+
                 {/* <a href="/blog" className="py-2">
                 News
               </a> */}

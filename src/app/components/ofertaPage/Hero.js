@@ -2,17 +2,17 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex flex-col mt-36 md:h-auto md:mt-32 xl:mt-40 2xl:mt-44 md:flex-row">
-      <div>
+    <div className="flex flex-col items-center mt-36 md:h-auto md:mt-32 xl:mt-40 2xl:mt-44 md:flex-row">
+      <div className="w-8/12 mx-auto ">
         <Image
           src="/ofertaAnimation.svg"
-          className="hidden md:block p-4 w-full
+          className="hidden md:block w-1/2 lg:w-10/12 xl:w-11/12 2xl:w-6/12
         animated "
           width={0}
           height={0}
         />
       </div>
-      <div className="poppins md:w-8/12  text-violet-50">
+      <div className="poppins md:w-8/12 2xl:w-5/12  text-violet-50">
         <h1 className="semibold text-4xl">
           Website Gratuit pentru firmele nou înființate
         </h1>

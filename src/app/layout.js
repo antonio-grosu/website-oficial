@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
         `}
       </Script>
 
-      <body className="px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-40  bg-gray-950">
+      <body className="px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-96  bg-gray-950">
         <header>
           <Navbar />
         </header>
