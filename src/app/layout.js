@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Script from "next/script";
+
 export const metadata = {
   icons: {
     icon: "/favicon.png",
@@ -60,6 +61,15 @@ export const metadata = {
     "Cumpărare și vânzare de platforme web",
     "Site-uri web pentru afaceri online",
     "Optimizare site-uri web pentru conversii",
+    "Codevs",
+    "Romania",
+    "Website Romania",
+    "Web Developer Romania",
+    "Code Romania",
+    "Codevs Website",
+    "Codevs Sass",
+    "Website Business",
+    "Website Gratuit",
   ],
   authors: [{ name: "Antonio Grosu" }],
   colorScheme: "dark",

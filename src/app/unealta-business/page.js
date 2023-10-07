@@ -1,5 +1,21 @@
 import Serviciu from "../components/serviciiPage/Serviciu";
 
+export const metadata = {
+  title: "Codevs.ro | Unealta de Management",
+  description:
+    "La baza fiecărei afaceri prospere stă relația cu clienții. Cu serviciul nostru, punem la dispoziție instrumentele necesare pentru a construi și gestiona aceste relații într-un mod unic. Echipa noastră de experți în software dezvoltă soluții adaptate perfect nevoilor dumneavoastră. Cu accentul pe design-ul distinct, funcționalitatea avansată și strategiile personalizate, veți dispune de o unealtă  care vă va ajuta să vă diferențiați pe piață și să vă fidelizați clienții.",
+  twitter: {
+    card: "summary_large_image",
+    title: "Codevs.ro | Unealta Management",
+    description:
+      "La baza fiecărei afaceri prospere stă relația cu clienții. Cu serviciul nostru, punem la dispoziție instrumentele necesare pentru a construi și gestiona aceste relații într-un mod unic. Echipa noastră de experți în software dezvoltă soluții adaptate perfect nevoilor dumneavoastră. Cu accentul pe design-ul distinct, funcționalitatea avansată și strategiile personalizate, veți dispune de o unealtă  care vă va ajuta să vă diferențiați pe piață și să vă fidelizați clienții.",
+    siteId: "1467726470533754880",
+    creator: "@codevs.ro",
+    creatorId: "1467726470533754880",
+    images: ["https://nextjs.org/og.png"],
+  },
+};
+
 function Business() {
   return (
     <div className="flex flex-col gap-24 lg:gap-32 xl:gap-36 2xl:gap-40 mt-16 md:mt-24 xl:mt-36 2xl:mt-40">
@@ -37,7 +53,7 @@ function Business() {
             p: "Suport Tehnic",
           },
         ]}
-        description="La baza fiecărei afaceri prospere stă relația cu clienții. Cu serviciul nostru de CRM și CSM, punem la dispoziție instrumentele necesare pentru a construi și gestiona aceste relații într-un mod unic. Echipa noastră de experți în software dezvoltă soluții adaptate perfect nevoilor dumneavoastră. Cu accentul pe design-ul distinct, funcționalitatea avansată și strategiile personalizate, veți dispune de o unealtă  care vă va ajuta să vă diferențiați pe piață și să vă fidelizați clienții."
+        description="La baza fiecărei afaceri prospere stă relația cu clienții. Cu serviciul nostru, punem la dispoziție instrumentele necesare pentru a construi și gestiona aceste relații într-un mod unic. Echipa noastră de experți în software dezvoltă soluții adaptate perfect nevoilor dumneavoastră. Cu accentul pe design-ul distinct, funcționalitatea avansată și strategiile personalizate, veți dispune de o unealtă  care vă va ajuta să vă diferențiați pe piață și să vă fidelizați clienții."
         nickname="Business-ul Tau Eficientizat"
         time="21"
       />

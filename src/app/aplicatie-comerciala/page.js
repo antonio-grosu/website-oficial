@@ -1,5 +1,21 @@
 import Serviciu from "../components/serviciiPage/Serviciu";
 
+export const metadata = {
+  title: "Codevs.ro | Aplicatie Sass",
+  description:
+    "Cu pasiunea noastră pentru inovație, suntem aici pentru a vă ajuta să dați viață ideilor dumneavoastră unice într-o aplicație web comercială (SaaS) care să exceleze. Cu o echipă de 7 experți în software, suntem gata să transformăm conceptele dumneavoastră într-o experiență digitală personalizată. Ne axăm pe designul autentic, funcționalitatea fără cusur și soluții tehnice ingenioase pentru a vă oferi o aplicație ce va lăsa o amprentă digitală memorabilă.",
+  twitter: {
+    card: "summary_large_image",
+    title: "Codevs.ro | Website",
+    description:
+      "Cu pasiunea noastră pentru inovație, suntem aici pentru a vă ajuta să dați viață ideilor dumneavoastră unice într-o aplicație web comercială (SaaS) care să exceleze. Cu o echipă de 7 experți în software, suntem gata să transformăm conceptele dumneavoastră într-o experiență digitală personalizată. Ne axăm pe designul autentic, funcționalitatea fără cusur și soluții tehnice ingenioase pentru a vă oferi o aplicație ce va lăsa o amprentă digitală memorabilă.",
+    siteId: "1467726470533754880",
+    creator: "@codevs.ro",
+    creatorId: "1467726470533754880",
+    images: ["https://nextjs.org/og.png"],
+  },
+};
+
 function Application() {
   return (
     <div className="flex flex-col gap-24 lg:gap-32 xl:gap-36 2xl:gap-40 mt-16 md:mt-24 xl:mt-36 2xl:mt-40">
