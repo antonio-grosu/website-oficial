@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   icons: {
@@ -110,6 +111,8 @@ export default function RootLayout({ children }) {
           <Navbar />
         </header>
         <main>{children}</main>
+        <Analytics />
+
         <Footer />
       </body>
     </html>
