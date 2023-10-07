@@ -44,7 +44,7 @@ function Termeni() {
             Ultima conditie este accea de a opta pentru planul{" "}
             <span
               href="#gold"
-              className="sora text-yellow-300 hover:underline transition-all cursor-pointer"
+              className="sora text-yellow-300  transition-all cursor-pointer"
             >
               Codevs Gold
             </span>{" "}
