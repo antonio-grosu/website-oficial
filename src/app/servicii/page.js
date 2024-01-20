@@ -25,7 +25,7 @@ function Servicii() {
         </h1>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <ServiceCard
-            service="Wesbite Personal"
+            service="Website Personal"
             src={"/website.svg"}
             benefit={["Design Unic", "Optimizare"]}
             link="website"
