@@ -1,5 +1,5 @@
 const { defaultConfig } = require("next/dist/server/config-shared");
-
+import Image from "next/image";
 function Footer() {
   return (
     <footer className="mt-16 md:mt-24 xl:mt-36 2xl:mt-40  -mx-4 md:-mx-12 lg:-mx-16 xl:-mx-20 2xl:-mx-24 pb-8 md:pb-10 lg:pb-12">
@@ -21,9 +21,15 @@ function Footer() {
         <div className="text-violet-50 w-full">
           <a
             href="/"
-            className="hover:text-violet-500 transition-all ease-in-out sora text-xl semibold"
+            className="flex items-center hover:text-violet-500 transition-all ease-in-out sora text-xl semibold"
           >
-            <span className="text-violet-500">@</span>codevs
+            <Image
+              src="/Group 7.svg"
+              className="w-2/12 mr-2"
+              width={500}
+              height={500}
+            />
+            codevs
           </a>
           <p className="mt-2 poppins">
             Inovăm prin cod, transformăm prin tehnologie.

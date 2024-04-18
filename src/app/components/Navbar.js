@@ -37,9 +37,15 @@ function Navbar() {
           </div>
           <a
             href="/"
-            className="hover:text-violet-500 transition-all ease-in-out sora text-xl semibold"
+            className="flex items-center hover:text-violet-500 transition-all ease-in-out sora text-xl semibold"
           >
-            <span className="text-violet-500">@</span>codevs
+            <Image
+              src="/Group 7.svg"
+              className="w-3/12 mr-2"
+              width={500}
+              height={500}
+            />
+            codevs
           </a>
           <div className="hidden text-sm md:flex items-center poppins justify-between w-3/12">
             <a

@@ -6,12 +6,12 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/apple-icon.png",
+    icon: "/Group 9.png",
+    shortcut: "/Group 9.png",
+    apple: "/Group 9.png",
     other: {
       rel: "apple-icon",
-      url: "/apple-icon.png",
+      url: "/Group 9.png",
     },
   },
   generator: "Codevs",
