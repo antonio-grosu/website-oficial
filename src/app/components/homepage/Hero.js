@@ -3,23 +3,25 @@ function Hero() {
   return (
     <div className="md:flex items-center justify-between gap-8  mt-36 md:h-auto md:mt-32 xl:mt-40 2xl:mt-44">
       <div className="poppins md:w-8/12  text-violet-50">
-        <h1 className="semibold text-4xl">Îmbrățișează Viitorul Digital</h1>
+        <h1 className="slide-in semibold text-4xl">
+          Îmbrățișează Viitorul Digital
+        </h1>
         <Image
           src="/heroAnimation.svg"
-          className="md:hidden block mx-auto w-full my-8"
+          className="slide-right md:hidden block mx-auto w-full my-8"
           width={0}
           height={0}
         />
-        <p className="mt-8 mb-12 md:w-10/12">
-          Suntem Codevs - pasiunea noastră este să transformăm viziunile tale în
-          experiențe online memorabile.
+        <p className="slide-in mt-8 mb-12 md:w-10/12">
+          Pasiunea noastră este să transformăm viziunile tale în experiențe
+          online memorabile.
         </p>
         <a
           href="/servicii"
-          className="block md:inline-block transition text-center duration-150 ease-linear hover:shadow-md hover:shadow-violet-300 px-4 py-2 rounded-md bg-violet-500"
+          className="block slide-in md:inline-block transition text-center duration-150 ease-linear hover:shadow-md hover:shadow-violet-300 px-4 py-2 rounded-md bg-violet-500"
         >
           <svg
-            className="w-4 h-4 inline-block mr-2 text-gray-800 dark:text-white"
+            className="w-4 h-4 inline-block mr-2  text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -39,7 +41,7 @@ function Hero() {
       <div className="w-1/2">
         <Image
           src="/heroAnimation.svg"
-          className="hidden md:block p-4 w-full"
+          className="hidden slide-right md:block p-4 w-full"
           width={0}
           height={0}
         />

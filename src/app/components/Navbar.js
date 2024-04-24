@@ -20,7 +20,7 @@ function Navbar() {
             }}
           >
             <svg
-              className="w-[24px] h-[24px] text-gray-800 dark:text-white"
+              className="w-[24px] h-[24px] text-gray-800 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -41,12 +41,12 @@ function Navbar() {
           >
             <Image
               src="/Group 7.svg"
-              className="w-3/12 mr-2"
+              className="w-5/12 mr-2 "
               width={500}
               height={500}
             />
-            codevs
           </a>
+          {/* pt desktop */}
           <div className="hidden text-sm md:flex items-center poppins justify-between w-3/12">
             <a
               href="/despre"
@@ -65,7 +65,7 @@ function Navbar() {
           </div>
           <a
             href="tel:+40747738250"
-            className="px-2 py-1 text-sm md:text-md md:px-3 md:py-1 poppins bg-violet-500/50 rounded-xl border-2  border-violet-500 hover:bg-violet-500/80 transition-all ease-in-out"
+            className="px-2 py-1 text-xs md:text-md md:px-3 md:py-1 poppins bg-violet-500/50 rounded-xl border-2  border-violet-500 hover:bg-violet-500/80 transition-all ease-in-out"
           >
             Meeting Gratuit
           </a>
@@ -76,15 +76,18 @@ function Navbar() {
           <div className="translate-y-1 w-8/12 px-8 py-6 border-r-2 border-violet-500 bg-gray-950 h-screen flex flex-col justify-between gap-48">
             <div>
               <div className="w-full flex items-center justify-between">
-                <p className="inline-block sora text-xl semibold">
-                  <span className="text-violet-500">@</span>codevs
-                </p>
+                <Image
+                  src="/Group 7.svg"
+                  className="w-3/12 mr-2"
+                  width={500}
+                  height={500}
+                />
 
                 <svg
                   onClick={() => {
                     setSideBar(!sideBar);
                   }}
-                  className="w-[20px] h-[20px] text-gray-800 dark:text-white"
+                  className="w-[20px] h-[20px] text-gray-800 text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -108,7 +111,7 @@ function Navbar() {
                   className="py-2 text-violet-50  focus:bg-gray-800 w-full flex sora items-center justify-start"
                 >
                   <svg
-                    className="w-6 h-6 text-gray-800 dark:text-white mr-4"
+                    className="w-6 h-6 text-gray-800 text-white mr-4"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -124,7 +127,7 @@ function Navbar() {
                   className="py-2  focus:bg-gray-800 sora  w-full text-violet-50 flex items-center justify-start"
                 >
                   <svg
-                    className="w-6 h-6 text-gray-800 dark:text-white mr-4"
+                    className="w-6 h-6 text-gray-800 text-white mr-4"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -160,7 +163,7 @@ function Navbar() {
               </p>
               <button className="px-4 flex mt-6 py-1 rounded-md  sora bg-violet-500   text-gray-50">
               <svg
-              className="w-[24px] h-[24px] mr-2 text-gray-800 dark:text-white"
+              className="w-[24px] h-[24px] mr-2 text-gray-800 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

@@ -3,9 +3,14 @@ function Serviciu(props) {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 md:mt-32 xl:mt-40 2xl:mt-44">
       <div className="hidden md:block p-4 w-96 h-96  ">
-        <Image src={props.src} className="w-full" width={0} height={0} />
+        <Image
+          src={props.src}
+          className="w-full slide-left"
+          width={0}
+          height={0}
+        />
       </div>
-      <div>
+      <div className="slide-in">
         <h1 className="sora text-4xl text-violet-50 semibold">
           {props.serviciu}
         </h1>
@@ -25,7 +30,7 @@ function Serviciu(props) {
 
         <div className="text-violet-50 poppins mt-4">{props.description}</div>
       </div>
-      <div>
+      <div className="slide-in">
         <h3 className="poppins text-violet-50 text-lg semibold inline-block">
           Timp de Executie
         </h3>
@@ -43,7 +48,7 @@ function Serviciu(props) {
             className="bg-violet-500/30 hover:shadow-md  hover:shadow-violet-50/50 hover:bg-violet-500/80 transition-all ease-in-out px-4 py-2 rounded-xl poppins text-violet-50 border-2 border-violet-500"
           >
             <svg
-              className="w-4 h-4 inline-block mr-2 text-gray-800 dark:text-white"
+              className="w-4 h-4 inline-block mr-2  text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 18"
@@ -62,7 +67,7 @@ function Serviciu(props) {
           </a>
         </div>
       </div>
-      <div className="border-l-2 md:w-8/12 text-center md:text-left bg-gray-800 border-violet-500 rounded-l-xl rounded-r-md py-2 lg:py-4 xl:py-6 2xl:py-8">
+      <div className="slide-in border-l-2 md:w-8/12 text-center md:text-left bg-gray-800 border-violet-500 rounded-l-xl rounded-r-md py-2 lg:py-4 xl:py-6 2xl:py-8">
         <h3 className="poppins px-1 md:px-2 lg:px-4 xl:px-6 2xl:px-8 text-violet-50 text-lg semibold inline-block">
           Alte Servicii
         </h3>

@@ -27,7 +27,7 @@ function Application() {
           {
             img: (
               <svg
-                className="w-5 h-5 text-gray-800 dark:text-white inline-block mr-2"
+                className="w-5 h-5 text-gray-800 text-white inline-block mr-2"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -41,7 +41,7 @@ function Application() {
           {
             img: (
               <svg
-                className="w-5 h-5 text-gray-800 dark:text-white inline-block mr-2"
+                className="w-5 h-5 text-gray-800 text-white inline-block mr-2"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -55,7 +55,7 @@ function Application() {
           {
             img: (
               <svg
-                className="w-5 h-5 text-gray-800 dark:text-white inline-block mr-2"
+                className="w-5 h-5 text-gray-800 text-white inline-block mr-2"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

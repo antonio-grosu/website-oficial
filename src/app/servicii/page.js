@@ -19,31 +19,27 @@ function Servicii() {
   return (
     <div className="flex flex-col gap-24 lg:gap-32 xl:gap-36 2xl:gap-40 mt-16 md:mt-24 xl:mt-36 2xl:mt-40">
       <div className="poppins mt-16 md:mt-24 xl:mt-36 2xl:mt-40">
-        <h1 className="semibold text-4xl md:text-center text-violet-50">
+        <h1 className="slide-left semibold text-4xl md:text-center text-violet-50">
           Oferim <span className="text-violet-500">plus valoare</span> tuturor
           prin serviciile noastre{" "}
         </h1>
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="slide-in mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <ServiceCard
-            service="Website Personal"
+            service="Website Static"
             src={"/website.svg"}
-            benefit={["Design Unic", "Optimizare"]}
+            benefit={["Design Unic", "Optimizat SEO"]}
             link="website"
           />
           <ServiceCard
             service="Aplicatie Comerciala"
             src={"/application.svg"}
-            benefit={["Autentificare", "Procesor Plati", "BD Dedicata"]}
+            benefit={["Funcționalități Complexe", "Procesare Plăți"]}
             link="aplicatie-comerciala"
           />
           <ServiceCard
             service="Software Business"
             src={"/business.svg"}
-            benefit={[
-              "Tool-uri Specifice",
-              "Management Eficient",
-              "Securitate Inalta",
-            ]}
+            benefit={["Tool-uri Custom", "Management Eficient"]}
             link="unealta-business"
           />
         </div>

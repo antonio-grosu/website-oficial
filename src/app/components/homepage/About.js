@@ -29,7 +29,7 @@ function About() {
           Suntem o echipă dedicată pasionată de inovație și creativitate. Cu o
           abordare atentă la detalii, ne străduim să transformăm fiecare proiect
           într-o experiență digitală excepțională. Împărtășim o viziune comună:
-          aceea de a crea soluții care nu doar satisfac nevoile, dar și depășesc
+          aceea de a crea soluții care nu doar satisfac nevoile, ci și depășesc
           așteptările.
         </p>
       </div>
