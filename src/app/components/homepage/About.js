@@ -28,9 +28,14 @@ function About() {
         <p className="mt-8 mb-12 md:w-10/12">
           Suntem o echipă dedicată pasionată de inovație și creativitate. Cu o
           abordare atentă la detalii, ne străduim să transformăm fiecare proiect
-          într-o experiență digitală excepțională. Împărtășim o viziune comună:
-          aceea de a crea soluții care nu doar satisfac nevoile, ci și depășesc
-          așteptările.
+          într-o experiență digitală excepțională.
+        </p>
+        <p className="mt-8 mb-12 md:w-10/12">
+          Împărtășim o viziune comună: aceea de a crea{" "}
+          <span className="font-bold text-violet-500">
+            soluții care nu doar satisfac nevoile, ci și depășesc așteptările
+          </span>
+          .
         </p>
       </div>
     </div>

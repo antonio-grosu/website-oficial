@@ -5,14 +5,12 @@ import Testimonials from "./components/homepage/Testimonials";
 import Contact from "./components/homepage/Contact";
 
 export const metadata = {
-  title: "Codevs.ro | Home",
-  description:
-    "Suntem Codevs - Pasiunea Noastră Este Să Transformăm Viziunile Tale în Experiențe Online Memorabile.",
+  title: "Codevs.ro",
+  description: "Inovam prin Cod",
   twitter: {
     card: "summary_large_image",
-    title: "Codevs.ro | Home",
-    description:
-      "Suntem Codevs - Pasiunea Noastră Este Să Transformăm Viziunile Tale în Experiențe Online Memorabile",
+    title: "Codevs.ro",
+    description: "Inovam prin Cod",
     siteId: "1467726470533754880",
     creator: "@codevs.ro",
     creatorId: "1467726470533754880",

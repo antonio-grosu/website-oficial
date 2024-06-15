@@ -1,12 +1,12 @@
 import Serviciu from "../components/serviciiPage/Serviciu";
 
 export const metadata = {
-  title: "Codevs.ro | Aplicatie Sass",
+  title: "Codevs.ro | Aplicatie Comercială",
   description:
     "Cu pasiunea noastră pentru inovație, suntem aici pentru a vă ajuta să dați viață ideilor dumneavoastră unice într-o aplicație web comercială (SaaS) care să exceleze. Cu o echipă de 7 experți în software, suntem gata să transformăm conceptele dumneavoastră într-o experiență digitală personalizată. Ne axăm pe designul autentic, funcționalitatea fără cusur și soluții tehnice ingenioase pentru a vă oferi o aplicație ce va lăsa o amprentă digitală memorabilă.",
   twitter: {
     card: "summary_large_image",
-    title: "Codevs.ro | Website",
+    title: "Codevs.ro | Website Firma",
     description:
       "Cu pasiunea noastră pentru inovație, suntem aici pentru a vă ajuta să dați viață ideilor dumneavoastră unice într-o aplicație web comercială (SaaS) care să exceleze. Cu o echipă de 7 experți în software, suntem gata să transformăm conceptele dumneavoastră într-o experiență digitală personalizată. Ne axăm pe designul autentic, funcționalitatea fără cusur și soluții tehnice ingenioase pentru a vă oferi o aplicație ce va lăsa o amprentă digitală memorabilă.",
     siteId: "1467726470533754880",
@@ -21,8 +21,13 @@ function Application() {
     <div className="flex flex-col gap-24 lg:gap-32 xl:gap-36 2xl:gap-40 mt-16 md:mt-24 xl:mt-36 2xl:mt-40">
       <Serviciu
         src="/application.svg"
-        serviciu="Aplicatie Comerciala"
-        facts={["Procesor Plata", "Functionaliati Complexe"]}
+        serviciu="Aplicație Comerciala / Ecommerce"
+        facts={[
+          "Procesor Plata",
+          "Autentificare",
+          "Magazin Online",
+          "Retea Sociala",
+        ]}
         services={[
           {
             img: (
@@ -50,7 +55,7 @@ function Application() {
                 <path d="M0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm14-7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm-5-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm-5-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4Z" />
               </svg>
             ),
-            p: "Management Aplicatie",
+            p: "Management Aplicație",
           },
           {
             img: (
@@ -67,9 +72,9 @@ function Application() {
             p: "Suport Tehnic",
           },
         ]}
-        description="Cu pasiunea noastră pentru inovație, suntem aici pentru a vă ajuta să dați viață ideilor dumneavoastră unice într-o aplicație web comercială (SaaS) care să exceleze. Cu o echipă de 7 experți în software, suntem gata să transformăm conceptele dumneavoastră într-o experiență digitală personalizată. Ne axăm pe designul autentic, funcționalitatea fără cusur și soluții tehnice ingenioase pentru a vă oferi o aplicație ce va lăsa o amprentă digitală memorabilă."
-        nickname="Aplicatia Ta"
-        time="28"
+        description=" Suntem aici pentru a te ajuta să dai viață ideilor tale unice într-o aplicație web comercială (SaaS) care să exceleze. Transformăm conceptele tale într-o experiență digitală personalizată. Ne axăm pe designul autentic, funcționalitatea fără cusur și soluții tehnice ingenioase pentru a vă oferi o aplicație ce va lăsa o amprentă digitală memorabilă."
+        nickname="Aplicația Comercială"
+        time="14"
       />
     </div>
   );

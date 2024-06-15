@@ -9,25 +9,21 @@ function Services() {
       </h1>
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
         <ServiceCard
-          service="Wesbite Personal"
+          service="Website Firma / Personal"
           src={"/website.svg"}
-          benefit={["Design Unic", "Optimizare"]}
+          benefit={["Design Unic", "SEO"]}
           link="website"
         />
         <ServiceCard
-          service="Aplicatie Comerciala"
+          service="Aplicație Ecommerce"
           src={"/application.svg"}
-          benefit={["Autentificare", "Procesor Plati", "BD Dedicata"]}
+          benefit={["Autentificare", "Plati Online"]}
           link="aplicatie-comerciala"
         />
         <ServiceCard
-          service="Software Business"
+          service="Management Business"
           src={"/business.svg"}
-          benefit={[
-            "Tool-uri Specifice",
-            "Management Eficient",
-            "Securitate Inalta",
-          ]}
+          benefit={["Tool-uri Eficiente", "Statistici Personalizate"]}
           link="unealta-business"
         />
       </div>

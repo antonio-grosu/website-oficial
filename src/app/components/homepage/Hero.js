@@ -4,7 +4,7 @@ function Hero() {
     <div className="md:flex items-center justify-between gap-8  mt-36 md:h-auto md:mt-32 xl:mt-40 2xl:mt-44">
       <div className="poppins md:w-8/12  text-violet-50">
         <h1 className="slide-in semibold text-4xl">
-          Îmbrățișează Viitorul Digital
+          Îmbrățișează Viitorul Digital cu Soluții Inovative
         </h1>
         <Image
           src="/heroAnimation.svg"
@@ -13,8 +13,9 @@ function Hero() {
           height={0}
         />
         <p className="slide-in mt-8 mb-12 md:w-10/12">
-          Pasiunea noastră este să transformăm viziunile tale în experiențe
-          online memorabile.
+          Cu noi, afacerea ta se va distinge în peisajul digital prin soluții
+          personalizate și inovatoare. Descoperă cum putem aduce ideile tale la
+          viață în mediul online!
         </p>
         <a
           href="/servicii"

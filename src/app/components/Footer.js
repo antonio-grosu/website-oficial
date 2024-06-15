@@ -40,7 +40,7 @@ function Footer() {
         </div>
         <div className="flex flex-col w-full gap-1 ">
           <h4 className="text-lg sora text-violet-50 semibold">
-            Exploreaza Site-ul
+            Explorează Site-ul
           </h4>
           <a
             href="/despre"
@@ -63,7 +63,7 @@ function Footer() {
         </div>
         <div className="w-full">
           <h4 className="text-lg sora text-violet-50 semibold">
-            Contacteaza-ne
+            Contactează-ne
           </h4>
           <a
             href="mailto:contact.codevs@gmail.com?subject=Colaborare Proiect"

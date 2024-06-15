@@ -39,7 +39,7 @@ function Serviciu(props) {
           ~ {props.time} zile
         </p>
         <p className="mt-4 poppins text-violet-50">
-          Esti gata sa dai start-ul cu{" "}
+          Ești gata să planificăm proiectul,{" "}
           <span className="semibold">{props.nickname}</span>?
         </p>
         <div className="mt-6">
@@ -63,11 +63,11 @@ function Serviciu(props) {
                 fill="currentColor"
               />
             </svg>
-            Hai sa discutam
+            Hai să discutăm!
           </a>
         </div>
       </div>
-      <div className="slide-in border-l-2 md:w-8/12 text-center md:text-left bg-gray-800 border-violet-500 rounded-l-xl rounded-r-md py-2 lg:py-4 xl:py-6 2xl:py-8">
+      {/* <div className="slide-in border-l-2 md:w-8/12 text-center md:text-left bg-gray-800 border-violet-500 rounded-l-xl rounded-r-md py-2 lg:py-4 xl:py-6 2xl:py-8">
         <h3 className="poppins px-1 md:px-2 lg:px-4 xl:px-6 2xl:px-8 text-violet-50 text-lg semibold inline-block">
           Alte Servicii
         </h3>
@@ -82,7 +82,7 @@ function Serviciu(props) {
               );
             })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

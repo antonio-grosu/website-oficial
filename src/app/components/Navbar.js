@@ -103,8 +103,8 @@ function Navbar() {
                 </svg>
               </div>
               <div className="flex flex-col w-full mt-6 text-violet-50 gap-4  items-start poppins">
-                <label className="mt-6 sora text-sm tracking-widest text-violet-50/50 ">
-                  NAVIGATIE
+                <label className="mt-6 sora text-sm uppercase tracking-widest text-violet-50/50 ">
+                  NAVIGAțIE
                 </label>
                 <a
                   href="/despre"

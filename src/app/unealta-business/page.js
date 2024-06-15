@@ -36,7 +36,7 @@ function Business() {
                 <path d="M14 7h-1.5V4.5a4.5 4.5 0 1 0-9 0V7H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Zm-5 8a1 1 0 1 1-2 0v-3a1 1 0 1 1 2 0v3Zm1.5-8h-5V4.5a2.5 2.5 0 1 1 5 0V7Z" />
               </svg>
             ),
-            p: "Protectie Ridicata",
+            p: "Autentifcare",
           },
           {
             img: (
@@ -53,9 +53,9 @@ function Business() {
             p: "Suport Tehnic",
           },
         ]}
-        description="La baza fiecărei afaceri prospere stă relația cu clienții. Cu serviciul nostru, punem la dispoziție instrumentele necesare pentru a construi și gestiona aceste relații într-un mod unic. Echipa noastră de experți în software dezvoltă soluții adaptate perfect nevoilor dumneavoastră. Cu accentul pe design-ul distinct, funcționalitatea avansată și strategiile personalizate, veți dispune de o unealtă  care vă va ajuta să vă diferențiați pe piață și să vă fidelizați clienții."
-        nickname="Business-ul Tau Eficientizat"
-        time="21"
+        description="La baza fiecărei afaceri prospere stă relația cu clienții. Cu serviciul nostru, punem la dispoziție instrumentele necesare pentru a construi și gestiona aceste relații într-un mod unic. Echipa noastră de experți în software dezvoltă soluții adaptate perfect nevoilor tale. Cu accentul pe design-ul distinct, funcționalitatea avansată și strategiile personalizate, vei dispune de o unealtă  care te va ajuta să te diferențiezi pe piață."
+        nickname="Software Management Business"
+        time="14"
       />
     </div>
   );
