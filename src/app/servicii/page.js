@@ -25,7 +25,7 @@ function Servicii() {
         </h1>
         <div className="slide-in mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <ServiceCard
-            service="Carte de Vizită Online"
+            service="Website Firma"
             src={"/website.svg"}
             benefit={["Design Unic", "Optimizat SEO"]}
             link="website"
