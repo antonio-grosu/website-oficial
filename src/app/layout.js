@@ -97,6 +97,10 @@ export default function RootLayout({ children }) {
     <html lang="ro">
       <head>
         <meta
+          name="google-site-verification"
+          content="T73IlE7PWwlhjmAMdqatIo9eW7Nl8drXDDqt40p2nKU"
+        />
+        <meta
           name="trustpilot-one-time-domain-verification-id"
           content="9853e95a-548d-4843-9771-8a3555dfbf5a"
         />
